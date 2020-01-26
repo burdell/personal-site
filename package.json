@@ -1,0 +1,18 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "date-fns": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy --input=./src",
+    "serve": "npx @11ty/eleventy --input=./src --serve"
+  },
+  "keywords": [],
+  "author": "nathan griffin",
+  "license": "ISC"
+}

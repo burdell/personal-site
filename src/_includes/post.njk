@@ -1,0 +1,13 @@
+---
+layout: header.njk
+---
+
+<div class="post blog-container">
+     <div class="post-title">
+        <div class="title">{{ title }}</div>
+        <div class="date">{{ date | readableDate }}</div>
+      </div>  
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+</div>
