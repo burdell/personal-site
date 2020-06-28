@@ -12,4 +12,4 @@ My name is Nathan. I'm a software developer in Atlanta. Some things I like in th
 
 I built this site using <a target="_blank" href="https://www.11ty.dev/">11ty</a>, which feels very intuitive and straightforward.
 
-Also it feels nice to actually write HTML and CSS again! (Sorry, React. luv u 💖)
+Also it feels nice to actually write purely HTML and CSS again!
