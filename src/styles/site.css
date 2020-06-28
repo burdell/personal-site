@@ -1,17 +1,19 @@
 :root {
-  --background: hsl(146.7, 12%, 98%);
-  --primary: hsl(72, 3.6%, 27.3%);
-  --tertiary: hsl(40, 76.3%, 53.7%);
-  --secondary: hsl(190, 17.2%, 50%);
-  --gray: hsl(60, 4.9%, 59.6%);
+  --background: #fff;
+  --primary: #2a363b;
+  --secondary: #607890;
+  --tertiary: hsl(44, 99%, 47%);
+  --gray: rgb(100, 100, 99);
   --appPadding: 2rem;
   --textTransition: color 0.1s ease-in-out;
+  --san-serif: "Josefin Sans";
 }
 
 body {
   background-color: var(--background);
-  font-family: "Crimson Pro", serif;
+  font-family: var(--san-serif), serif;
   color: var(--primary);
+  line-height: 1.3;
 }
 
 main {
@@ -64,7 +66,7 @@ section {
 header {
   display: flex;
   align-items: baseline;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 
 header div {
@@ -100,6 +102,10 @@ header div {
   font-size: 1.7rem;
   font-weight: 300;
   color: var(--gray);
+}
+
+.post-content {
+  font-weight: 300;
 }
 
 .post-content p {
