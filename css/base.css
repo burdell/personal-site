@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/css/fonts/Recoleta-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('/css/fonts/Spectral.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Spectral', 'serif';
+  background-color: hsl(180, 40%, 14%);
+  color: hsl(37, 100%, 73%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Recoleta', 'serif';
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+a {
+  color: hsl(0, 79%, 72%);
+}
